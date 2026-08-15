@@ -37,6 +37,9 @@ h2{font-size:21px;margin:0 0 4px;padding-bottom:8px;border-bottom:2px solid var(
 .docs a.alt{border-left-color:var(--vio)}
 .docs a.alt:hover{border-color:var(--vio)}
 .docs a.alt b{color:var(--vio)}
+.docs a.ok{border-left-color:var(--ok)}
+.docs a.ok:hover{border-color:var(--ok)}
+.docs a.ok b{color:var(--ok)}
 
 table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}
 th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
@@ -64,6 +67,8 @@ th{background:#1d2330;color:var(--acc2);font-size:13px}
 .links a:hover{background:#1d2330;border-color:var(--acc)}
 .links a.v{color:var(--vio);border-color:#4a3a5e}
 .links a.v:hover{background:#1f1a29;border-color:var(--vio)}
+.links a.g{color:var(--ok);border-color:#2c4a3c}
+.links a.g:hover{background:#152a20;border-color:var(--ok)}
 
 .papers{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
 .paper{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--vio);border-radius:10px;padding:16px 18px}
@@ -89,7 +94,7 @@ footer a{color:var(--mut)}
 <div class="wrap">
 <p class="eyebrow">CSE 307 · Final Exam Revision</p>
 <h1>System Analysis &amp; Design</h1>
-<p>A revision hub for Lectures 7 to 11. This page is the map: what each topic is, what the examiner actually asks for it, and where the marks sit. The full notes and every solved past question live in the two books below.</p>
+<p>A revision hub for Lectures 7 to 11. This page is the map: what each topic is, what the examiner actually asks for it, and where the marks sit. The full notes, every solved past question, and one model answer per question type live in the three books below.</p>
 <div class="chips">
 <span>Lectures 7 – 11</span>
 <span>CT2 · CT3 · Final Sum25 · Final Aut24</span>
@@ -105,6 +110,10 @@ footer a{color:var(--mut)}
 <b>Question Walkthrough Book →</b>
 <em>Every question from CT2, CT3, Final Sum25 and Final Aut24, worked end to end: case study, how to think, how to draw, the answer, what the marker looks for.</em>
 </a>
+<a class="ok" href="CSE307_Model_Answers.html">
+<b>Model Answers, One Per Type →</b>
+<em>One worked example of each question type the exam can set, from use case diagram to input form. Jump straight to the type you are practising.</em>
+</a>
 </div>
 </div>
 </header>
@@ -115,6 +124,7 @@ footer a{color:var(--mut)}
 <a href="#topics">Topic Briefs</a>
 <a href="#papers">Past Papers</a>
 <a href="#checklist">Final Checklist</a>
+<a href="CSE307_Model_Answers.html" style="color:var(--ok);border-color:#2c4a3c;margin-left:auto">Model Answers ↗</a>
 </div>
 </nav>
 
@@ -171,6 +181,7 @@ footer a{color:var(--mut)}
 <div class="links">
 <a href="CSE307_Final_Cram_Sheet.html#uml">Read the notes</a>
 <a class="v" href="CSE307_Question_Walkthrough.html#ct2">Worked: CT2</a>
+<a class="g" href="CSE307_Model_Answers.html#usecase">Model answers</a>
 </div>
 </article>
 
@@ -191,6 +202,7 @@ footer a{color:var(--mut)}
 <div class="links">
 <a href="CSE307_Final_Cram_Sheet.html#dfd">Read the notes</a>
 <a class="v" href="CSE307_Question_Walkthrough.html#ct3">Worked: CT3</a>
+<a class="g" href="CSE307_Model_Answers.html#dfd">Model answers</a>
 </div>
 </article>
 
@@ -209,6 +221,7 @@ footer a{color:var(--mut)}
 <div class="trap"><b>Remember the rule</b>Structured English when communicating with users, decision tables for complex condition combinations and completeness, decision trees when sequence matters.</div>
 <div class="links">
 <a href="CSE307_Final_Cram_Sheet.html#spec">Read the notes</a>
+<a class="g" href="CSE307_Model_Answers.html#spec">Model answer</a>
 </div>
 </article>
 
@@ -227,6 +240,7 @@ footer a{color:var(--mut)}
 <div class="links">
 <a href="CSE307_Final_Cram_Sheet.html#out">Read the notes</a>
 <a class="v" href="CSE307_Question_Walkthrough.html#a24">Worked: Aut24 Q1b</a>
+<a class="g" href="CSE307_Model_Answers.html#output">Model answer</a>
 </div>
 </article>
 
@@ -246,6 +260,7 @@ footer a{color:var(--mut)}
 <div class="links">
 <a href="CSE307_Final_Cram_Sheet.html#in">Read the notes</a>
 <a class="v" href="CSE307_Question_Walkthrough.html#s25">Worked: Sum25</a>
+<a class="g" href="CSE307_Model_Answers.html#inputf">Model answer</a>
 </div>
 </article>
 
@@ -332,7 +347,7 @@ footer a{color:var(--mut)}
 <footer>
 <div class="wrap">
 Built from Lectures 7 – 11 and the past papers. Figures in the cram sheet are screenshots straight from the slides.<br>
-<a href="CSE307_Final_Cram_Sheet.html">Full Cram Sheet</a> · <a href="CSE307_Question_Walkthrough.html">Question Walkthrough Book</a>
+<a href="CSE307_Final_Cram_Sheet.html">Full Cram Sheet</a> · <a href="CSE307_Question_Walkthrough.html">Question Walkthrough Book</a> · <a href="CSE307_Model_Answers.html">Model Answers</a>
 </div>
 </footer>
 
